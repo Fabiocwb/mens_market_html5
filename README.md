@@ -1,4 +1,4 @@
-# mens_market_html5
+# Men's Market.
 Loja online de uma rede de roupas masculina fictícia. 
 Site desenvolvido por Fabio Ferreira, afim de apresentar uma solução desenvolvida em HTML5 e CSS3 para satisfazer a necessidade de vendas em e-commerce da Empresa Men's Market, uma loja de roupas masculinas.
 
