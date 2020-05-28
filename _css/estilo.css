@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+
+nav#menu{
+    font-style: italic;
+    font-family: sans-serif;
+    color: blue;
+    position: absolute;
+    
+}
+
+section#barra_cima{
+    background-color: cornflowerblue;
+    width: 1000pt;
+    position: relative;
+}
+
+section#barra_esquerda{
+    background-color: orange;
+  
+}
