@@ -1,22 +1,60 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'FontStencil';
+	src: url("../_fonts/Bronx\ Bystreets.ttf");
+
+}
+
 body{
     background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+div#principal{
+    width: 900px;
+    margin: 20px auto 0 50px;
+
+}
+
+section#barra_cima h1{
+    font-family: 'FontStencil';
+    font-size: 50px;
+    margin-top: 0px;
 }
 
 nav#menu{
-    font-style: italic;
-    font-family: sans-serif;
-    color: blue;
+    display: block;
     position: absolute;
-    
+    top: -5px;
+    left: 500px;        
 }
 
-section#barra_cima{
-    background-color: cornflowerblue;
-    width: 1000pt;
-    position: relative;
+nav#menu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(212, 196, 196);
+    padding: 4px;
+    margin: 2px;
+    
 }
 
 section#barra_esquerda{
     background-color: orange;
+    margin: -50px 20px 0px 30px;
+    width: 70px;
+    height: 950px;
+    float: left;
+    position: static;
   
 }
+
+section#barra_cima{
+    background-color: cornflowerblue;
+    width: 950pt;
+    height: 50px;
+    padding: 5px 0px 5px 10px;
+    position: absolute;
+    
+}
+
