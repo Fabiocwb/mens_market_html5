@@ -6,14 +6,14 @@
 }
 
 body{
-    background-color: white;
+    background-color: #C0C0C0;
     font-family: Arial, sans-serif;
 }
 
-div#principal{
+div#menu{
     width: 900px;
     margin: 20px auto 0 50px;
-
+    background-color: #000000;
 }
 
 section#barra_cima h1{
