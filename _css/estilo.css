@@ -11,9 +11,16 @@ body{
 }
 
 div#menu{
-    width: 900px;
     margin: 20px auto 0 50px;
-    background-color: #000000;
+}
+
+section#barra_cima{
+    background-color: cornflowerblue;
+    width: 950pt;
+    height: 50px;
+    padding: 5px 0px 5px 10px;
+    position: absolute;
+    
 }
 
 section#barra_cima h1{
@@ -49,12 +56,30 @@ section#barra_esquerda{
   
 }
 
-section#barra_cima{
-    background-color: cornflowerblue;
-    width: 950pt;
-    height: 50px;
-    padding: 5px 0px 5px 10px;
-    position: absolute;
-    
+
+div#interface{
+    width: 1225px;
+    height: 900px;
+    margin: 20px auto 0 100px;
+    background-color: #ffffff;
 }
 
+footer#rodape{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+footer#rodape p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+footer#rodape p.autor{
+    font-size: 10px;
+}
+
+#logo{
+    width: 35px;
+    padding: 5px;
+}
