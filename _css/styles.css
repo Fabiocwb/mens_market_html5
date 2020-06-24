@@ -9,22 +9,59 @@ body{
 	font-family: Arial, sans-serif;
 }
 
+div#interface{
+	width: 1000px;
+	margin: 20px auto 0px auto;
+	
+}
+
+div#interface h1#logo{
+	position: absolute;
+	margin: -5px 50px 10px -70px;
+	
+}
+
+div#interface h1#logo a{
+	text-decoration: none;
+	color: black;
+}
+
 .margin{
 	padding: 10px 0px 50px 20px;
 }
 
-#img{
+/*-------------Formatação da imagem dos produtos---------------*/
+figure.produto-foto img{
 	width: 200px;
 	height: 300px;
+	padding: 10px;
+	border: 1px solid rgba(0 , 0, 0, 0.4);
 	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-#logo-img{
-	width: 50px;
-	height: 50px;
-	
+/*---------------------Formatação do Menu---------------------*/
+nav#menu{
+	display: block;
+	margin: 20px 20px 0px 370px;
 }
 
+
+
+/*--------------------Formatação do Rodapé--------------------*/
 footer#rodape{
 	text-align: center;
+}
+
+footer#rodape img{
+	width: 20px;
+	height: 20px;
+}
+
+footer#rodape p{
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+#botao:hover{
+	background-color: blue;
 }
